@@ -1,0 +1,23 @@
+.card-container{
+    width: 516px;
+    height: 630px;
+    position: relative;
+}
+.signupLink{
+    position: absolute;
+    right: 69px;
+    bottom: 61px;
+}
+.input{
+    border-bottom:1px solid #A4A4A4;
+    border-radius: 0;
+    width: 369px;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid #A4A4A4;
+    color: #1678CB;
+}
+.signup-link{
+    text-decoration: underline;
+}
