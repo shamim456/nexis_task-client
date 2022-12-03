@@ -65,13 +65,10 @@ const Signup = () => {
       first_name: firstName,
       last_Name: lastName,
       email,
-      phone_number: phoneNumber,
+      phone_number: '+880'+phoneNumber,
       password,
     };
-    if (error) {
-      return;
-    }
-
+  
     // send data to server
     fetch("https://test.nexisltd.com/signup", {
       method: "POST",
